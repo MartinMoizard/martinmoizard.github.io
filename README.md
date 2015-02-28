@@ -1,21 +1,25 @@
-# Documentation
+# Leap Day
 
-Compass is a Jekyll theme designed with something very specific in mind: to be a simple and elegant personal landing page that can be easily deployed to [GitHub Pages](https://pages.github.com/).
+Open source content for Leap Day theme. Theme was first designed / developed for GitHub Pages and is availalbe for download, forking and using anywhere else on the web. Like the theme share it with the twitterverse.
 
-## How to use Compass
+![Leap Day](http://cl.ly/image/2Z1Z1e2q2I1C/image)
 
-1. Start by [installing Bundler](http://bundler.io) `gem install bundler`
-2. [Fork the Compass repository](https://github.com/excentris/compass/fork)
-3. Then run `bundle install` to get [Jekyll](http://jekyllrb.com) and all the dependencies.
-4. Clone the repository you just forked: `git clone https://github.com/YOUR-USER/compass`
-5. Edit `_config.yml` as needed.
-6. Run the Jekyll server with `bundle exec jekyll serve`
-7. Go to `http://localhost:4000`
+**Note** If you are an original Leap Day user (pre August 2014) the [1.0 tag](https://github.com/mattgraham/leapday/releases/tag/1.0) is what you are on.
 
-## Deploy your site to GitHub Pages
+The Leap Day Pages demo is [here](http://mattgraham.github.com/leapday)
 
-If you want to use Compass as your personal landing page you can deploy your site to GitHub Pages as a [User Page](https://help.github.com/articles/user-organization-and-project-pages/#user--organization-pages). To do so, when you are done modifying your clone, you should rename your repository to `username.github.io` where username is your username. When GitHub builds the page it will be made available at `https://username.github.io`.
 
-If you are planning on using a custom domain to direct to your site, modify the CNAME file as described [here](https://help.github.com/articles/adding-a-cname-file-to-your-repository/).
+### Developing Locally
 
-Check the [GitHub Pages Basics](https://help.github.com/categories/github-pages-basics/) for more information.
+```
+script/server
+```
+
+Running `script/server` will run `jekyll serve && compass --watch` commands via terminal. You will be able to open http://localhost:4000 and make changes to any of the, md, .html or .scss files and compass will compile them for you. Simply refresh your browser (or use something like livereload) and develop away. Most of the colors and sizing is found in the _variables.scss file.
+
+
+### Credits
+
+Leap-Day Theme is by [Matt Graham](http://madebygraham.com), twitter [@michigangraham](http://twitter.com/#!/michigangraham). Use, reuse and modify away.
+
+[Creative Commons Attribution](http://creativecommons.org/licenses/by/3.0/)
